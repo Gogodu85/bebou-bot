@@ -12,7 +12,7 @@ Client.on("ready", () => {
     console.log("bot opérationnel");
 });
 
-Client.login(process.env.TOKEN);
+Client.login("OTA0MzUwNjkyNDc3NjM2NjM4.YX6QNw.lw9BeJPn06X3MN2lwM6zmJWIPTI");
 
 Client.on('messageCreate', message => {
     if (message.author.bot) return;
