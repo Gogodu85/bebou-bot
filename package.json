@@ -2,5 +2,23 @@
   "dependencies": {
     "discord.js": "^13.3.0",
     "dotenv": "^10.0.0"
-  }
+  },
+  "name": "bebou-bot",
+  "version": "1.0.0",
+  "description": "a simple bot by Altorru",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gogodu85/bebou-bot.git"
+  },
+  "author": "Altorru",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gogodu85/bebou-bot/issues"
+  },
+  "homepage": "https://github.com/Gogodu85/bebou-bot#readme"
 }
