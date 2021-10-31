@@ -5,6 +5,7 @@ const Client = new Discord.Client({
         Discord.Intents.FLAGS.GUILD_MESSAGES
     ]});
 
+require("dotenv").config();
 const prefix = "?";
 
 Client.on("ready", () => {
@@ -12,7 +13,7 @@ Client.on("ready", () => {
     console.log("bot opérationnel");
 });
 
-Client.login("OTA0MzUwNjkyNDc3NjM2NjM4.YX6QNw.lw9BeJPn06X3MN2lwM6zmJWIPTI");
+Client.login(process.env.BOT_TOKEN);
 
 Client.on('messageCreate', message => {
     if (message.author.bot) return;
